@@ -34,3 +34,5 @@ Please report issues with fictional data, not customer or bank records. MIT.
 Related: [zh-claim-lint](https://github.com/s1166921-png/zh-claim-lint) checks dates and amounts in Chinese drafts against their sources.
 
 Preparing a receiving CSV first? [Statement Normalize](https://github.com/s1166921-png/statement-normalize) converts dates and amounts, separates credits from fees, and keeps a source-row audit.
+
+Already have prepared journal entries? [Voucher Preflight](https://github.com/s1166921-png/voucher-preflight) checks a separate generic voucher CSV for duplicate source lines and debit/credit differences. Neither tool posts entries.
